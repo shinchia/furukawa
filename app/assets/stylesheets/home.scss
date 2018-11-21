@@ -1,0 +1,470 @@
+
+* {
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS';
+}
+
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  margin: 12% 12% 0 12%;
+  color: white;
+  text-align: center;
+}
+
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.top-wrapper img{
+  height: auto;width: 80%;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.btn-wrapper p {
+  margin: 0px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+
+}
+
+.twitter {
+  background-color: #55acee;
+
+}
+
+.ivent {
+  background-color: rgba(255,255,255,0.7);
+
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+
+}
+
+.btn:hover {
+  opacity: 3;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 8%;
+  position:fixed;
+  top:0px;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(1, 1, 1, 0.5)
+
+}
+
+.header-logo {
+  float: left;
+  color: white;
+  font-size: 10%;
+  line-height: 64px;
+}
+
+.header-logo a{
+  color: white;
+  font-size: 1rem;
+}
+
+.header-menus {
+  float: right;
+  padding-right: 20px;
+}
+
+.header-menus li {
+  float: left;
+  line-height: 64px;
+  font-size: 1rem;
+  padding-left: 90px ;
+}
+
+.header-menus a {
+  color: white;
+}
+
+.header-menus .fa {
+  padding-right: 5px;
+}
+
+.header-menus input[type="submit"] {
+  padding: 0 20px;
+  float: left;
+  line-height: 64px;
+  color: white;
+  margin: 0;
+  font-size: 13px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+
+
+.lesson-wrapper {
+  margin: 10%;
+  text-align: center;
+  background-color: rgba(255,255,255,0.5);
+  width: 80%
+
+
+}
+
+
+
+.heading h2 {
+  font-weight: normal;
+
+
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon img{
+  height: 130px;
+  position: relative;
+  top: 20px;left:500px;
+}
+
+.lesson-icon p {
+  width: 100%;
+  color:black;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: rgba(1, 1, 1, 1);
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.lesson-icon p{
+  position: absolute;
+  top:22px;
+}
+
+.flash {
+  padding: 10px 0;
+  color: white;
+  background: rgb(251, 170, 88);
+  text-align: center;
+  position: absolute;
+  top: 64px;
+  z-index: 10;
+  width: 100%;
+  border-radius: 0 0 2px 2px;
+  font-size: 14px;
+}
+
+
+
+.text-line{
+  background-color: rgba(255,255,255,0.5);
+  width: 80%
+}
+
+.header-logo img{
+   width:200px;height: auto;
+  position: fixed;
+  top:1%;
+
+}
+
+.Our_Philosophy h1{
+  background-color: rgba(135,206,235,1);
+  text-align: center;
+  color: white;
+  margin: 10% 0 0 0;
+
+}
+.Our_Philosophy h3{
+  background-color: rgba(255,255,255,1);
+    text-align: center;
+    color: gray;
+    margin: 0%;
+
+}
+
+.Our_Philosophy h2{
+    background-color: rgba(135,206,235,0.5);
+    text-align: center;
+    color: white;
+    margin: 0% 0 5% 0;
+}
+
+.Our_Vision h1{
+  background-color: rgba(135,206,235,1);
+  text-align: center;
+  color: white;
+  margin: 0 0 0 0;
+
+}
+.Our_Vision  h3{
+  background-color: rgba(255,255,255,1);
+    text-align: center;
+    color: gray;
+    margin: 0 0 5% 0;
+
+}
+
+.Our_Vision h2{
+    background-color: rgba(135,206,235,0.5);
+    text-align: center;
+    color: white;
+    margin: 0 0 0 0;
+}
+
+.Our_Promise  h3{
+  background-color: rgba(255,255,255,1);
+    text-align: center;
+    color: gray;
+    margin: 0 0 10% 0;
+
+}
+
+.Our_Promise h2{
+    background-color: rgba(135,206,235,0.5);
+    text-align: center;
+    color: white;
+    margin: 0 0 0 0;
+}
+
+.Our_Promise h1{
+  background-color: rgba(135,206,235,1);
+  text-align: center;
+  color: white;
+  margin: 0 0 0 0;
+
+}
+
+@media screen and (min-width: 700px) {
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif!important;
+  background-image: url("/plane-1632598.png")!important;
+  background-attachment: fixed!important;
+  background-size: cover!important;
+}
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+  body{
+    margin: 0!important;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif!important;
+    background-image: url("/397.jpg")!important;
+    background-attachment: fixed!important;
+    background-size: cover!important;
+
+  }
+
+  .top-wrapper img{
+    margin: 20% 0 0 0 ;
+
+  }
+
+  .Our_Philosophy h1{
+    background-color: rgba(135,206,235,1);
+    text-align: center;
+    color: white;
+    margin: 10% 0 0 0;
+    font-size: 25px;
+
+  }
+  .Our_Philosophy h2{
+    background-color: rgba(255,255,255,1);
+      text-align: center;
+      color: gray;
+      margin: 0%;
+      font-size: 15px;
+
+  }
+
+  .Our_Philosophy h2{
+      background-color: rgba(135,206,235,0.5);
+      text-align: center;
+      color: white;
+      margin: 0% 0 5% 0;
+      font-size: 15px;
+  }
+
+  .Our_Vision h1{
+    background-color: rgba(135,206,235,1);
+    text-align: center;
+    color: white;
+    margin: 0 0 0 0;
+    font-size: 25px;
+
+  }
+  .Our_Vision  h3{
+    background-color: rgba(255,255,255,1);
+      text-align: center;
+      color: gray;
+      margin: 0 0 5% 0;
+      font-size: 13px;
+
+  }
+
+  .Our_Vision h2{
+      background-color: rgba(135,206,235,0.5);
+      text-align: center;
+      color: white;
+      margin: 0 0 0 0;
+      font-size: 15px;
+  }
+
+  .Our_Promise  h3{
+    background-color: rgba(255,255,255,1);
+      text-align: center;
+      color: gray;
+      margin: 0 0 10% 0;
+      font-size: 13px;
+
+  }
+
+  .Our_Promise h2{
+      background-color: rgba(135,206,235,0.5);
+      text-align: center;
+      color: white;
+      margin: 0 0 0 0;
+      font-size: 15px;
+  }
+
+  .Our_Promise h1{
+    background-color: rgba(135,206,235,1);
+    text-align: center;
+    color: white;
+    margin: 0 0 0 0;
+    font-size: 25px;
+
+  }
+
+  .btn{
+    width: 90%;
+    margin: 1%;  }
+
+    .blank{
+      height: 10%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1218px){
+  .header-menus {
+    display: none;
+}
+header{
+  padding: 20px;
+  background-color: black;
+}
+.header-logo{
+   float: right;
+   height: 100px;
+ }
+
+.header-logo a{
+   width:100%;height:auto;
+   position: fixed;
+}
+
+.header-logo img{
+   width:200px;height:auto;
+   position: fixed;
+   right:1%;
+}
+
+}
+@media screen and (min-width: 700px) {
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif!important;
+  background-image: url("/plane-1632598.png")!important;
+  background-attachment: fixed!important;
+  background-size: cover!important;
+}
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+  body{
+    margin: 0!important;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif!important;
+    background-image: url("/397.jpg")!important;
+    background-attachment: fixed!important;
+    background-size: cover!important;
+
+  }}
+
+
+
+@media screen and (min-width:1218px) {
+  #nav-open {
+    display:none;
+  }
+}
